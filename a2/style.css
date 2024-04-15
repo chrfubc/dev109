@@ -1,1 +1,54 @@
-
+html {
+  height:100%;
+}
+header {
+  background-color:rgb(155,250,250);
+}
+header h1 {
+  font-family: 'JelleeBold';
+  font-weight:normal;
+  font-style:normal;
+  text-align:center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+body {
+  height:75%;
+}
+.chessboard{
+  text-align:center;
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/3/32/House_sparrow04.jpg");
+  width:100%;
+  height:80%;
+  padding-top:12%;
+}
+.row{
+  width:100%;
+  height:10%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.row div {
+  width:10%;
+  height:100%;
+  display:inline-block;
+}
+.row div img {
+  height:85%;
+  margin-top:5%;
+  margin-bottom:10%;
+}
+.w {
+  background-color:white;
+}
+.b {
+  background-color:black;
+}
+footer {
+  text-align:center;
+  background-color:rgb(155,250,250)
+}
+footer img {
+  margin-top:10px;
+  margin-bottom:10px;
+}

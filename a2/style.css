@@ -1,54 +1,65 @@
 html {
   height:100%;
 }
-header {
+#title {
+  position:fixed;
+  top:0px;
+  left:0px;
+  padding:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  width:100%;
+  z-index:10;
   background-color:rgb(155,250,250);
-}
-header h1 {
   font-family: 'JelleeBold';
   font-weight:normal;
   font-style:normal;
   text-align:center;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 body {
-  height:75%;
-}
-.chessboard{
-  text-align:center;
   background-image:url("https://upload.wikimedia.org/wikipedia/commons/3/32/House_sparrow04.jpg");
-  width:100%;
-  height:80%;
-  padding-top:12%;
 }
-.row{
-  width:100%;
-  height:10%;
+.clear {
+  clear:both;
+}
+#container{
+  margin-top:20%;
   margin-left:auto;
   margin-right:auto;
+  margin-bottom:5%;
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Japanese_Wave_Pattern.svg/800px-Japanese_Wave_Pattern.svg.png?20170526115251");
+  padding:1%;
 }
-.row div {
-  width:10%;
-  height:100%;
-  display:inline-block;
+.row{
+  margin-left:10%;
+  margin-right:10%;
 }
-.row div img {
-  height:85%;
-  margin-top:5%;
-  margin-bottom:10%;
+img {
+  margin-left:5px;
+  margin-top:10px;
 }
 .w {
+  border: 1px solid black;
+  width:12%;
+  height:60px;
+  float:left;
   background-color:white;
 }
 .b {
-  background-color:black;
+  border: 1px solid black;
+  width:12%;
+  height:60px;
+  float:left;
+  background-color:#787878;
 }
-footer {
+#footer {
+  border:solid 1px;
+  padding:10px;
+  margin:10px;
   text-align:center;
   background-color:rgb(155,250,250)
 }
-footer img {
+#footer img {
   margin-top:10px;
   margin-bottom:10px;
 }

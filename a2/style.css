@@ -47,7 +47,7 @@ img {
   width:12%;
   height:60px;
   float:left;
-  background-color:blue;
+  background-color:rgb(120,120,120);
 }
 #footer {
   border:solid 1px;

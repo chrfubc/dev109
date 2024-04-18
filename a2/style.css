@@ -19,7 +19,7 @@ body {
 .clear {
   clear:both;
 }
-#container{
+#chessboard {
   margin-top:10%;
   margin-left:auto;
   margin-right:auto;

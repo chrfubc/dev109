@@ -14,6 +14,7 @@
   text-align:center;
 }
 body {
+  margin:0;
   background-image:url("https://upload.wikimedia.org/wikipedia/commons/3/32/House_sparrow04.jpg");
 }
 .clear {

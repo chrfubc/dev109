@@ -1,0 +1,61 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  text-align: center;
+}
+h1 {
+  font-family:"Jacquard 24";
+  font-weight:400;
+  font-style:normal;
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #905090;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f9/Long-tailed_Tit_%28Aegithalos_caudatus%29%2C_Cumnor_Hill%2C_Oxford.jpg")
+}
+#content {
+  overflow: auto;
+}
+#nav, #feature, #footer {
+  margin: 1%;
+}
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
+li {
+  display: inline;
+  padding: 0.5em;
+}
+#nav, #footer {
+  padding: 0.5em 0;
+}
+#feature, .article {
+  height: 10em;
+  margin-bottom: 1em;
+}
+.column3 {
+  margin-right: 0%;
+  background-color: #AE8B74;
+}
+.column1 {
+  background-color: #E1AF90;
+}
+.column2 {
+  background-color: #BBF3E2;
+}
+#nav {
+  background-color: #AABBCC;
+}
+#feature {
+  background-color: #BBCCAA;
+  background-image: url("https://cdn.iconscout.com/icon/free/png-256/free-small-diamond-geometric-blue-38006.png?f=webp");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+#footer {
+  background-color: #CCBBAA;
+}

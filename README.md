@@ -1,5 +1,7 @@
 # dev109
 
+[Midterm](https://chrfubc.github.io/dev109/midterm/index.html)
+
 ## Modules
 
 [Module 1](https://chrfubc.github.io/dev109/m01/index.html)

@@ -1,0 +1,9 @@
+#upLeft, #upRight, #downLeft {
+    float:left;
+}
+#clear {
+    clear:both;
+}
+input:invalid {
+    border-color:red;
+}

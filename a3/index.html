@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Week 6 - BC - Rhombus">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css" type="text/css"> 
+    <title>Artifact #3</title>
+</head>
+<body>
+    <h1>Christine Fu</h1>
+    <label>What is the size of Rhombus?</label><br>
+    <input type="number" id="rHeight" value="5" min="1" required>
+    <br>
+    <label>Choose color for Even position</label><br>
+    <select id="colorEven">
+        <option value="#0000FF">Blue</option>
+        <option value="#FF0000">Red</option>
+        <option value="#FF9900">Orange</option>
+        <option value="#FFFF00">Yellow</option>
+        <option value="#FFAAFF">Light Pink</option>
+    </select><br>
+
+    <label>Choose color for Odd position</label><br>
+    <select id="colorOdd">
+        <option value="#FF0099">Pink</option>
+        <option value="#33FF00">Green</option>
+        <option value="#660099">Purple</option>
+        <option value="#00FFFF">Cyan</option>
+        <option value="#AAAAAA">Gray</option>
+    </select>
+    <br>
+    <label>Choose symbol for Rhombus</label>
+    <select id="symbol">
+        <option value="*">*</option>
+        <option value="$">$</option>
+        <option value="@">@</option>
+        <option value="&">&</option>
+        <option value="#">#</option>
+    </select>
+    <br>
+    <button onclick="createRhombus(document.getElementById('rHeight').value,
+        document.getElementById('colorEven').value,
+        document.getElementById('colorOdd').value,
+        document.getElementById('symbol').value);">Display Rhombus</button>
+    <p>Rhombus</p>
+    <div id="upLeft"></div>
+    <div id="upRight"></div>
+    <div id="clear"></div>
+    <div id="downLeft"></div>
+    <div id="downRight"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,1 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900');
 
+body {
+    background-color:beige;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    font-family: "Noto Sans", sans-serif;
+}
+h1, #nav {
+    text-align: center;
+}
+li {
+    display: inline;
+    padding: 8px;
+}
+.assignment {
+    margin: 50px auto;
+}
+img.assignmentimg {
+    float:left;
+    width: 100px;
+    margin-right: 10px;
+}
+p.center {
+    text-align:center;
+}
+form {
+    text-align:left;
+}
+textarea {
+    width:30%;
+    height:150px;
+}
+#columns {
+    margin:auto;
+    text-align:center;
+}
+.column {
+    float:left;
+    width:50%;
+}

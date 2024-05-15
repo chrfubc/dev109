@@ -14,6 +14,8 @@
 
 [Module 5](https://chrfubc.github.io/dev109/m05/index.html)
 
+[Module 7](https://chrfubc.github.io/dev109/m07/index.html)
+
 ## Artifacts
 
 [Artifact 1](https://chrfubc.github.io/dev109/a1/index.html)

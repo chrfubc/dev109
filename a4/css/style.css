@@ -1,0 +1,18 @@
+body {
+    background-color: beige;
+    font-family:sans-serif;
+}
+#myform {
+    width: 600px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    border: solid 2px darkgreen;
+}
+.errorMessages {
+    font-weight: bold;
+    color:red;
+}
+textarea {
+    width:70%;
+    height:150px;
+}

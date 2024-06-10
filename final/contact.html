@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contact Me - Final Portfolio</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <div id="nav">
+        <ul>
+            <li class="navItem"><a href="index.html">Home</a></li>
+            <li class="navItem"><a href="about.html">About</a></li>
+            <li class="navItem"><a href="courses.html">Courses</a></li>
+            <li class="navItem"><a href="artifacts.html">Artifacts</a></li>
+            <li class="navItem"><a href="modules.html">Module Assignments</a></li>
+            <li class="navItem"><a href="contact.html">Contact Me</a></li>
+            <li class="navItem"><a href="creative.html">Delicious in Dungeon</a></li>
+            <li class="navItem"><a href="validated.html">Validated</a></li>
+        </ul>
+    </div>
+    <div id="container">
+    <form id="contact" action="thankyou.html" method="get" name="contact" onsubmit="return validateForm();">
+        <p><label for="name">Name:</label>
+            <input type="text" id="name" name="name" size="20"></p>
+            <div class="errorMessages" id="nameError"></div>
+        <p><label for="email">Email:</label>
+            <input type="text" id="email" name="email" size="20"></p>
+            <div class="errorMessages" id="emailError"></div>
+        <p><label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" size="40"></p>
+            <div class="errorMessages" id="subjectError"></div>
+        <p><label for="comments">Comment:</label><br>
+            <textarea name="comments" id="comments"></textarea></p>
+            <div class="errorMessages" id="commentsError"></div>
+        <input type="submit" id="submit" name="submit" value="Submit">
+        <div class="errorMessages" id="submitError"></div>
+    </form>
+
+    <script src="js/validator.js"></script>
+    </div>
+</body>
+</html>

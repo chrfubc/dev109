@@ -51,7 +51,7 @@ img.validation {
 }
 img.left {
     float:left;
-    margin-right:30px;
+    margin-right:10px;
     width:30%
 }
 .errorMessages {
